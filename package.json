@@ -1,0 +1,18 @@
+{
+  "name": "game-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "tsx main.ts",
+    "dev": "tsx watch main.ts"
+  },
+  "dependencies": {
+    "@grammyjs/menu": "^1.3.1",
+    "@grammyjs/storage-file": "^2.0.0",
+    "grammy": "^1.36.0",
+    "tsx": "^4.19.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4"
+  }
+}
