@@ -4,7 +4,9 @@ import { mainMenu, personalizeMenu, resultMenu } from "./personalize";
 import { choiceMenu, game } from "./game";
 import { storage } from "./database";
 
-const bot = new Bot<MyContext>(process.env.BOT_TOKEN!);
+// const bot = new Bot<MyContext>(process.env.BOT_TOKEN!);
+
+const bot = new Bot<MyContext>("7253411873:AAHbKjcfIOth8-mtq8GpAY_hoDDjwWXH-Uk");
 
 export type MyContext = Context & SessionFlavor<SessionData> & MenuFlavor;
 
